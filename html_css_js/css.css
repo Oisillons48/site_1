@@ -1,0 +1,222 @@
+body{
+    color: /*rgb(6, 248, 78)*/black;
+    background-color: white;/*rgb(0,0,0)*/
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul > li{
+    float: left;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+
+.submenu{
+    display: none;
+}
+
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+
+nav > ul > li{
+    float: left;
+    position: relative;
+    border-top: 5px solid #424558;
+}
+
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: #FFF;
+}
+
+
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+
+
+.submenu li a{
+    padding: 20px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+    
+}
+
+
+.li1n:hover{
+    border-top: 5px solid rgb(160, 6, 6);
+    background-color: rgba(145, 7, 7, 0.500);
+
+}
+
+.li2n:hover{
+    border-top: 5px solid rgb(4, 179, 56);
+    background-color: rgba(4, 179, 56, 0.5);
+}
+
+.li3n:hover{
+    border-top: 5px solid rgb(4, 65, 179);
+    background-color: rgba(4, 65, 179, 0.5);
+}
+
+.lin4:hover{
+    border-top: 5px solid rgb(243, 180, 5);
+    background-color: rgba(243, 180, 5, 0.5);
+}
+
+
+.li2n .submenu{
+    background-color: rgb(7, 196, 64);
+}
+
+.submenu li:hover a{
+    color:#EEE;
+    font-weight: bold;
+}
+
+.li2n .submenu li:hover{
+    background-color: rgba(4, 179, 56, 0.808)
+}
+
+/*#div-animation {
+    width: 500px;
+    height: 400px;
+    background-image: url("Minecraft_diapo1.png");
+    position: relative;
+    -moz-animation-name: chgt-image; 
+    -moz-animation-duration: 25s;
+    -moz-animation-iteration-count: infinite;
+    animation-name: chgt-image;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+}*/
+
+/*@moz-keyframes chgt-image{
+    0% {background-image: url("../Images/Minecraft_diapo1.png");}
+    25% {background-image: url("../Images/Minecraft_diapo2.png");}
+    50%{background-image: url("../Images/Minecraft_diapo3.png");}
+    75%{background-image: url("../Images/Minecraft_diapo4.png");}
+    100% {background-image: url("../Images/Minecraft_diapo5.png");}
+}*/
+
+
+/*@keyframes chgt-image {
+    0% {background-image: url("../Images/Minecraft_diapo1.png");}
+    25% {background-image: url("../Images/Minecraft_diapo2.png");}
+    50%{background-image: url("../Images/Minecraft_diapo3.png");}
+    75%{background-image: url("../Images/Minecraft_diapo4.png");}
+    100% {background-image: url("../Images/Minecraft_diapo5.png");}
+}*/
+
+video{
+    width: 500px;
+    height: 400px;
+}
+
+#diveo1{
+    padding: 700px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(39, 39, 153);
+}
+
+.imglogo{
+    width: 500px;
+    height: 700 px;
+}
+
+
+/* LES ARTICLES: MINECRAFT, RED ECLIPSE ET ROBOCRAFT (EN DEHORS DE LEURS ONGLET)*/
+
+#guidemine{
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#guidemine:hover{
+    background-color: rgb(71, 196, 71);
+    
+}
+
+#guidered{
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#guidered:hover{
+    background-color: red;
+}
+
+#guiderob{
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#guiderob:hover{
+    background-color: rgb(89, 89, 255);
+}
+
+.atuto{
+    text-decoration: none;
+    color: black;
+}
+
+.sectuto{
+    display:inline-block;
+}
+
+.alert_jeux{
+    padding: 30px;
+    border: 2px solid black;
+    background-color: yellowgreen;
+    
+}
+
+
+.foot{
+    height: 80px;
+    padding-top: 30px;
+    background-color: blue;
+    text-align: center;
+    
+}
