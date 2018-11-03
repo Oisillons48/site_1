@@ -5,7 +5,7 @@ body{
     padding: 0px;
     
 }
-
+/*lE NAV*/
 nav > ul{
     margin: 0px;
     padding: 0px;
@@ -152,15 +152,13 @@ video{
     padding: 700px;
 }
 
+/*LES LIENS*/
 a{
     text-decoration: none;
     color: rgb(39, 39, 153);
 }
 
-.imglogo{
-    width: 500px;
-    height: 700 px;
-}
+
 
 
 /* LES ARTICLES: MINECRAFT, RED ECLIPSE ET ROBOCRAFT (EN DEHORS DE LEURS ONGLET)*/
@@ -211,12 +209,25 @@ a{
     background-color: yellowgreen;
     
 }
-
+/*lE FOOTER*/
 
 .foot{
     height: 80px;
     padding-top: 30px;
-    background-color: blue;
+    color: white;
     text-align: center;
-    
+    background-color: #222538;
+}
+
+/*LIENS VERS LES MINI-JEUX*/
+
+.liensminijeux{
+    padding: 20px;
+    background-color: rgb(148, 148, 243);
+    color: red;
+    text-decoration: none;
+}
+.liensminijeux:hover{
+    background-color:rgba(148, 148, 243, 0.90);
+    color: rgb(163, 1, 1);
 }
