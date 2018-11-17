@@ -226,6 +226,7 @@ a{
     background-color: rgb(148, 148, 243);
     color: red;
     text-decoration: none;
+    display: inline-block;
 }
 .liensminijeux:hover{
     background-color:rgba(148, 148, 243, 0.90);
