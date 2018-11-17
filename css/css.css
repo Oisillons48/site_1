@@ -232,3 +232,9 @@ a{
     background-color:rgba(148, 148, 243, 0.90);
     color: rgb(163, 1, 1);
 }
+
+
+/*LES IMAGES*/
+.img1{
+    max-height: 500px;
+}
