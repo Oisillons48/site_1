@@ -109,44 +109,17 @@ nav li:hover .submenu{
 }
 
 .li2n .submenu li:hover{
-    background-color: rgba(4, 179, 56, 0.808)
+    background-color: rgba(4, 179, 56, 0.808);
 }
 
-/*#div-animation {
-    width: 500px;
-    height: 400px;
-    background-image: url("Minecraft_diapo1.png");
-    position: relative;
-    -moz-animation-name: chgt-image; 
-    -moz-animation-duration: 25s;
-    -moz-animation-iteration-count: infinite;
-    animation-name: chgt-image;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    display: inline-block;
-}*/
-
-/*@moz-keyframes chgt-image{
-    0% {background-image: url("../Images/Minecraft_diapo1.png");}
-    25% {background-image: url("../Images/Minecraft_diapo2.png");}
-    50%{background-image: url("../Images/Minecraft_diapo3.png");}
-    75%{background-image: url("../Images/Minecraft_diapo4.png");}
-    100% {background-image: url("../Images/Minecraft_diapo5.png");}
-}*/
-
-
-/*@keyframes chgt-image {
-    0% {background-image: url("../Images/Minecraft_diapo1.png");}
-    25% {background-image: url("../Images/Minecraft_diapo2.png");}
-    50%{background-image: url("../Images/Minecraft_diapo3.png");}
-    75%{background-image: url("../Images/Minecraft_diapo4.png");}
-    100% {background-image: url("../Images/Minecraft_diapo5.png");}
-}*/
-
-video{
-    width: 500px;
-    height: 400px;
+.li5n .submenu{
+    background-color: rgba(11, 50, 158);
 }
+.li5n .submenu li:hover{
+    background-color: rgba(11, 50, 158, 0.5);
+}
+
+
 
 #diveo1{
     padding: 700px;
