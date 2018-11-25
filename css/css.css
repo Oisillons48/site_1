@@ -112,11 +112,16 @@ nav li:hover .submenu{
     background-color: rgba(4, 179, 56, 0.808);
 }
 
-.li5n .submenu{
-    background-color: rgba(11, 50, 158);
+#video:hover{
+    border-top: 5px solid rgb(40, 128, 40);
+    background-color: rgba(79, 196, 79);
 }
-.li5n .submenu li:hover{
-    background-color: rgba(11, 50, 158, 0.5);
+
+.lin5 .submenu{
+    background-color: rgb(79, 196, 79);
+}
+.lin5 .submenu li:hover{
+    background-color: rgba(79, 196, 79, 0.363)
 }
 
 
