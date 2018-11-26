@@ -113,15 +113,15 @@ nav li:hover .submenu{
 }
 
 #video:hover{
-    border-top: 5px solid rgb(40, 128, 40);
-    background-color: rgba(79, 196, 79);
+    border-top: 5px solid rgb(27, 161, 27);
+    background-color: rgba(27, 161, 27, 0.5);
 }
 
 .lin5 .submenu{
     background-color: rgb(79, 196, 79);
 }
 .lin5 .submenu li:hover{
-    background-color: rgba(79, 196, 79, 0.363)
+    background-color: rgba(79, 196, 79, 0.5)
 }
 
 
