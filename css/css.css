@@ -141,6 +141,19 @@ a{
 
 /* LES ARTICLES: MINECRAFT, RED ECLIPSE ET ROBOCRAFT (EN DEHORS DE LEURS ONGLET)*/
 
+.article{
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    color: black;
+    
+}
+
+.article:hover{
+    background-color: #77798a;
+}
+
+
 #guidemine{
     text-align: center;
     border: 2px solid black;
